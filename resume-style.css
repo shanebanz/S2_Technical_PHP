@@ -1,0 +1,62 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.resume-table {
+    width: 600px;
+    border: 4px double black;
+    border-collapse: collapse;
+}
+
+.photo-cell {
+    width: 150px;
+    height: 150px;
+    border: 2px double black;
+    text-align: center;
+    vertical-align: middle;
+    padding: 10px;
+}
+
+.photo-cell img {
+    width: 120px;
+    height: 120px;
+    border: 1px solid black;
+    border-radius: 50%;
+}
+
+.info-cell {
+    border: 2px double black;
+    padding: 20px;
+    vertical-align: top;
+}
+
+.section-cell {
+    border: 2px double black;
+    padding: 15px;
+}
+
+.section-cell h3 {
+    margin: 0 0 10px 0;
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.info-cell h2 {
+    margin: 0 0 15px 0;
+    text-align: center;
+    font-size: 18px;
+}
+
+.info-cell p, .section-cell p {
+    margin: 5px 0;
+    font-size: 14px;
+}
+
+td {
+    border: 2px double black;
+}

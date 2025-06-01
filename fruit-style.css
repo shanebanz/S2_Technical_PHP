@@ -1,0 +1,90 @@
+/* Simple table styling to match the reference image */
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color: #f5f5f5;
+}
+
+.container {
+    background-color: white;
+    padding: 10px;
+}
+
+.fruit-table {
+    width: 100%;
+    border-collapse: collapse;
+    border: 3px double #000;
+    background-color: white;
+}
+
+.main-header {
+    background-color: #e6e6e6;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 10px;
+    border-bottom: 2px double #000;
+}
+
+.sub-header {
+    background-color: #d9d9d9;
+}
+
+.sub-header th {
+    border: 2px double #000;
+    padding: 8px;
+    font-size: 14px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.image-header {
+    width: 120px;
+}
+
+.name-header {
+    width: 100px;
+}
+
+.desc-header {
+    width: 120px;
+}
+
+.facts-header {
+    width: auto;
+}
+
+tbody td {
+    border: 2px double #000;
+    padding: 8px;
+    vertical-align: top;
+    font-size: 13px;
+}
+
+.image-cell {
+    text-align: center;
+    background-color: #fff;
+}
+
+.fruit-image {
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    border: 1px solid #ccc;
+}
+
+.name-cell {
+    text-align: center;
+    font-weight: bold;
+    background-color: #fff;
+}
+
+.desc-cell {
+    text-align: center;
+    background-color: #fff;
+}
+
+.facts-cell {
+    background-color: #fff;
+    line-height: 1.4;
+}
